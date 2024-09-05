@@ -137,9 +137,9 @@
             this.fechacreacion});
             this.table_prodcuctos.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.table_prodcuctos.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.table_prodcuctos.Location = new System.Drawing.Point(435, 33);
+            this.table_prodcuctos.Location = new System.Drawing.Point(362, 33);
             this.table_prodcuctos.Name = "table_prodcuctos";
-            this.table_prodcuctos.Size = new System.Drawing.Size(641, 192);
+            this.table_prodcuctos.Size = new System.Drawing.Size(644, 192);
             this.table_prodcuctos.TabIndex = 2;
             this.table_prodcuctos.UseWaitCursor = true;
             this.table_prodcuctos.Visible = false;
