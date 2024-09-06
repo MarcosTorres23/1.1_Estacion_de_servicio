@@ -47,5 +47,25 @@ namespace Estacion_de_Servicio
         {
             table_prodcuctos.Visible = !table_prodcuctos.Visible;
         }
+
+        private void nuevaCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void table_prodcuctos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
