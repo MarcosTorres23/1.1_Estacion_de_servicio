@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Servicios
+namespace Estacion_de_Servicio
 {
-    public partial class Servicios : Form
+    public partial class Productos : Form
     {
-        public Servicios()
+        public Productos()
         {
             InitializeComponent();
         }
 
-        private void Servicios_Load(object sender, EventArgs e)
+        private void table_prodcuctos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Productos_Load(object sender, EventArgs e)
         {
 
         }

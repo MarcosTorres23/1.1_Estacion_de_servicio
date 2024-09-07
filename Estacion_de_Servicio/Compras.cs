@@ -10,21 +10,14 @@ using System.Windows.Forms;
 
 namespace Estacion_de_Servicio
 {
-    public partial class Inicio : Form
+    public partial class Compras : Form
     {
-        public Inicio()
+        public Compras()
         {
             InitializeComponent();
         }
 
-        private void inicio_secion_Click(object sender, EventArgs e)
-        {
-            /*Acceder al fomulario principal*/
-            Home Home = new Home();
-            Home.Show();
-        }
-
-        private void nuevo_user_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

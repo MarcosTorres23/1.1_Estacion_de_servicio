@@ -19,7 +19,9 @@ namespace Estacion_de_Servicio
 
         private void stockToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            table_stock.Visible = !table_stock.Visible;
+            /*Acceder al fomulario compras*/
+            Stock Stock = new Stock();
+            Stock.Show();
 
         }
 
@@ -28,42 +30,50 @@ namespace Estacion_de_Servicio
 
         }
 
-        private void agregaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void pedirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void productos_Click(object sender, EventArgs e)
         {
-            table_prodcuctos.Visible = !table_prodcuctos.Visible;
+            /*Acceder al fomulario compras*/
+            Productos Productos = new Productos();
+            Productos.Show();
         }
 
-        private void nuevaCompraToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            /*Acceder al fomulario compras*/
+            Compras Compras = new Compras();
+            Compras.Show();
         }
 
-        private void table_prodcuctos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            /*Acceder al fomulario Clientes*/
+            Clientes Clientes = new Clientes();
+            Clientes.Show();
         }
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            /*Acceder al fomulario empleados*/
+            Empleados Empleados = new Empleados();
+            Empleados.Show();
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*Acceder al fomulario ventas*/
+            Ventas Ventas = new Ventas();
+            Ventas.Show();
+        }
+
+        private void proveedoresToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            /*Acceder al fomulario proveedores*/
+            Proveedores Proveedores = new Proveedores();
+            Proveedores.Show();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

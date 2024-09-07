@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace Estacion_de_Servicio
 {
-    public partial class Inicio : Form
+    public partial class Empleados : Form
     {
-        public Inicio()
+        public Empleados()
         {
             InitializeComponent();
         }
 
-        private void inicio_secion_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            /*Acceder al fomulario principal*/
-            Home Home = new Home();
-            Home.Show();
+
         }
 
-        private void nuevo_user_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }
