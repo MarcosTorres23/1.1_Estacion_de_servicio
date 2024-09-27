@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.inicio_secion = new System.Windows.Forms.Button();
+            this.inicio_sesion = new System.Windows.Forms.Button();
             this.nuevo_user = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -41,21 +41,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // inicio_secion
+            // inicio_sesion
             // 
-            this.inicio_secion.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.inicio_secion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.inicio_secion.BackColor = System.Drawing.Color.Transparent;
-            this.inicio_secion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.inicio_secion.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inicio_secion.ForeColor = System.Drawing.Color.DarkCyan;
-            this.inicio_secion.Location = new System.Drawing.Point(158, 456);
-            this.inicio_secion.Name = "inicio_secion";
-            this.inicio_secion.Size = new System.Drawing.Size(140, 43);
-            this.inicio_secion.TabIndex = 0;
-            this.inicio_secion.Text = "Iniciar Secion";
-            this.inicio_secion.UseVisualStyleBackColor = false;
-            this.inicio_secion.Click += new System.EventHandler(this.inicio_secion_Click);
+            this.inicio_sesion.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.inicio_sesion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.inicio_sesion.BackColor = System.Drawing.Color.Transparent;
+            this.inicio_sesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.inicio_sesion.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inicio_sesion.ForeColor = System.Drawing.Color.DarkCyan;
+            this.inicio_sesion.Location = new System.Drawing.Point(158, 456);
+            this.inicio_sesion.Name = "inicio_sesion";
+            this.inicio_sesion.Size = new System.Drawing.Size(140, 43);
+            this.inicio_sesion.TabIndex = 0;
+            this.inicio_sesion.Text = "Iniciar Sesion";
+            this.inicio_sesion.UseVisualStyleBackColor = false;
+            this.inicio_sesion.Click += new System.EventHandler(this.inicio_sesion_Click);
             // 
             // nuevo_user
             // 
@@ -174,7 +174,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.nuevo_user);
-            this.Controls.Add(this.inicio_secion);
+            this.Controls.Add(this.inicio_sesion);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Inicio";
             this.Text = "Estacion de Servicio Login";
@@ -187,7 +187,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button inicio_secion;
+        private System.Windows.Forms.Button inicio_sesion;
         private System.Windows.Forms.Button nuevo_user;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;

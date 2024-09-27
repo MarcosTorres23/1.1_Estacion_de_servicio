@@ -17,7 +17,7 @@ namespace Estacion_de_Servicio
             InitializeComponent();
         }
 
-        private void inicio_secion_Click(object sender, EventArgs e)
+        private void inicio_sesion_Click(object sender, EventArgs e)
         {
             /*Acceder al fomulario principal*/
             Home Home = new Home();
